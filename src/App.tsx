@@ -12,7 +12,7 @@ export default function App() {
     const toggleLanguage = () => setLanguage(language === "pt" ? "en" : "pt");
     
   return (
-<div className="bg-neutral-950 text-white min-h-screen w-screen flex flex-col overflow-x-hidden">
+<div className="bg-neutral-950 text-white min-h-screen flex flex-col overflow-x-hidden">
       <Navbar language={language} toggleLanguage={toggleLanguage} />
       <main className="flex-grow">
         <Home language={language} />

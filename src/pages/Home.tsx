@@ -38,7 +38,7 @@ export function Home({ language }: PropsType) {
     <section
       id="home"
       ref={homeRef}
-      className="flex flex-col md:flex-row items-center justify-between py-16 px-4 sm:px-8 max-w-[1500px] mx-auto gap-8 md:gap-20 relative w-full overflow-x-hidden"
+      className="flex flex-col md:flex-row items-center justify-between py-16 px-4 sm:px-8 max-w-[1500px] mx-auto mt-36 gap-8 md:gap-20 relative w-full overflow-x-hidden"
     >
       {/* Lado esquerdo */}
       <div className="flex-auto text-left">
@@ -117,7 +117,7 @@ export function Home({ language }: PropsType) {
           <img
             src="/me.jpg"
             alt="Luis Gustavo"
-            className="w-full h-full object-cover rounded-full border-4 shadow-xl"
+            className="w-full h-full object-cover rounded-full shadow-xl"
           />
         </div>
       </div>
